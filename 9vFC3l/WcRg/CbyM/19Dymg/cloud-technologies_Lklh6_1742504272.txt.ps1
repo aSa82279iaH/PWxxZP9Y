@@ -6,7 +6,6 @@
 #########################################################
 
 [String]$location = Split-Path -Parent $PSCommandPath
-$files = Get-ChildItem $location -recurse -force -Filter *.vssx
 foreach($file in $files)
 {
     if($file.PSPath.Contains("Previous Versions") -eq $false)

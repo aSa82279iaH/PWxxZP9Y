@@ -15,7 +15,6 @@ def get_PDF_file_name_list(file_dir="book"):
         for file in files:
             if os.path.splitext(file)[1] == '.pdf':
                 pdf_file_name_list.append(os.path.join(root, file))
-    pdf_file_name_list = [str(idx+1) + ". " + name + "\n" for idx, name in enumerate(pdf_file_name_list)]
     pdf_file_name_list.insert(0, "## book\n")
     return pdf_file_name_list
 

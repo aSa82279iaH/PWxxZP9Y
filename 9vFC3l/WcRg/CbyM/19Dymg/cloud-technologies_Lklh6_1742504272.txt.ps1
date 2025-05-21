@@ -1,5 +1,4 @@
 #                                                       #
-# Install Microsoft Integration & Azure Stencils Pack   #
 # Author: Sandro Pereira                                #
 #                                                       #
 #########################################################

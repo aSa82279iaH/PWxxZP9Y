@@ -4,7 +4,6 @@ root = true
 end_of_line = lf
 indent_size = 4
 
-[*.{js,json,ts}]
 charset = utf-8
 quote_type = single
 spaces_around_brackets = true

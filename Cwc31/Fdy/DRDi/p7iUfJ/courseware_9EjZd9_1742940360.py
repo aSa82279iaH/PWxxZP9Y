@@ -35,7 +35,6 @@ def wirte_README_file():
     with open("README.md", 'w', encoding='utf-8') as wf:
         for content in content_list:
             wf.writelines(content)
-            wf.write("\n")
 
 if __name__=="__main__":
     wirte_README_file()

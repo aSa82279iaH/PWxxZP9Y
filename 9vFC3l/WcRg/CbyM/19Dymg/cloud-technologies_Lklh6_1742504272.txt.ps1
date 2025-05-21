@@ -1,5 +1,4 @@
 #                                                       #
-# Author: Sandro Pereira                                #
 #                                                       #
 #########################################################
 [String]$location = Split-Path -Parent $PSCommandPath

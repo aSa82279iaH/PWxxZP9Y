@@ -2,7 +2,6 @@ import os
 
 def read_README_file():
     with open("README.md", 'r', encoding='utf-8') as f:
-        readme_file = f.readlines()
         print(readme_file)
 
 def readme_file_head():

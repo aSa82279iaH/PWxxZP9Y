@@ -17,7 +17,6 @@ def get_PDF_file_name_list(file_dir="book"):
     pdf_file_name_list.insert(0, "## book\n")
     return pdf_file_name_list
 
-def get_Courseware_file_name_list(file_dir="Courseware"):
     Courseware_file_name_list =[]
     for root, dirs, files in os.walk(file_dir):
         Courseware_file_name_list.extend(dirs)

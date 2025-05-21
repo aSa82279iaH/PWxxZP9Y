@@ -2,5 +2,4 @@
 #                                                       #
 foreach($file in $files)
     {
-    }
 }

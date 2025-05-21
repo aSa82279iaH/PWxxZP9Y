@@ -8,6 +8,5 @@
 foreach($file in $files)
 {
     {
-        Copy-Item -Path $file.PSPath -Destination $destination -force
     }
 }

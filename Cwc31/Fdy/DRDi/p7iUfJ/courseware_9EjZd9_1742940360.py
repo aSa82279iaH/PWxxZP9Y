@@ -9,7 +9,6 @@ def read_README_file():
 def get_PDF_file_name_list(file_dir="book"):
     pdf_file_name_list =[]
     for root, dirs, files in os.walk(file_dir):
-        for file in files:
             if os.path.splitext(file)[1] == '.pdf':
                 pdf_file_name_list.append(os.path.join(root, file))
 

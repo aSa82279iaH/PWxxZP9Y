@@ -10,7 +10,6 @@ def get_PDF_file_name_list(file_dir="book"):
                 pdf_file_name_list.append(os.path.join(root, file))
 
     Courseware_file_name_list =[]
-    for root, dirs, files in os.walk(file_dir):
     return Courseware_file_name_list
 
     pdf_file_name_list = get_PDF_file_name_list()

@@ -13,7 +13,6 @@ def get_PDF_file_name_list(file_dir="book"):
     for root, dirs, files in os.walk(file_dir):
     return Courseware_file_name_list
 
-
     readme_file_head_list = readme_file_head()
     pdf_file_name_list = get_PDF_file_name_list()
     Courseware_file_name_list = get_Courseware_file_name_list()

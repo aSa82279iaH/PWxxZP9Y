@@ -20,7 +20,6 @@ def get_PDF_file_name_list(file_dir="book"):
     readme_file_head_list = readme_file_head()
     pdf_file_name_list = get_PDF_file_name_list()
     Courseware_file_name_list = get_Courseware_file_name_list()
-        for content in content_list:
             wf.writelines(content)
 
 if __name__=="__main__":

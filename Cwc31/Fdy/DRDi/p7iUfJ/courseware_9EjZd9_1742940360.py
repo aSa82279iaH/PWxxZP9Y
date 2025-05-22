@@ -9,7 +9,6 @@ def get_PDF_file_name_list(file_dir="book"):
             if os.path.splitext(file)[1] == '.pdf':
                 pdf_file_name_list.append(os.path.join(root, file))
 
-    Courseware_file_name_list =[]
     return Courseware_file_name_list
 
     pdf_file_name_list = get_PDF_file_name_list()

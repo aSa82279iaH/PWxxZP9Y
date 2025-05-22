@@ -3,7 +3,6 @@ import os
 def read_README_file():
     with open("README.md", 'r', encoding='utf-8') as f:
         print(readme_file)
-
     content = ["# Content\n", "机器学习深度学习相关书籍、课件、代码的仓库。\n", "Machine learning is the warehouse of books, courseware and codes.\n"]
     return content
 def get_PDF_file_name_list(file_dir="book"):

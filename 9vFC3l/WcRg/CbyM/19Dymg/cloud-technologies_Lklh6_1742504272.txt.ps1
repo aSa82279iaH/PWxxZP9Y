@@ -1,5 +1,4 @@
 #                                                       #
 #                                                       #
-foreach($file in $files)
     {
 }

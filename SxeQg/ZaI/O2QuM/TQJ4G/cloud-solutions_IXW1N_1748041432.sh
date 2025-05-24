@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 usage="
-USAGE: $(basename "$0") [container] [-h]
 
 where:
 container: container id or container name

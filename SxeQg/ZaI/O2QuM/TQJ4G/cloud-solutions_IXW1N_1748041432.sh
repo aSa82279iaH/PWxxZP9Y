@@ -54,7 +54,6 @@ if [[ -n $container ]]; then
     docker exec "$container" getprop &> getprop.txt
     docker exec "$container" dumpsys &> dumpsys.txt
 
-<<'EOF' >network.txt  docker exec -i "$container" sh
     echo "************** ip a"
     ip a
     echo "************** ip rule"

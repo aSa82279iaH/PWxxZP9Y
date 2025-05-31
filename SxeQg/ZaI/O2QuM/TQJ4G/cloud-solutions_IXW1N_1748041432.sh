@@ -28,7 +28,6 @@ cd "$tmp_dir" || exit 1
 
 { cp /boot/config-"$(uname -r)" ./ || zcat /proc/config.gz > config-"$(uname -r)"; } &> /dev/null
 
-{ grep binder /proc/filesystems; grep ashmem /proc/misc; } > drivers.txt
 
 uname -a &> uname.txt
 
